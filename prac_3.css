@@ -1,0 +1,38 @@
+
+.flexBox{
+
+    margin-left : 10vw;
+    margin-top : 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 1000px;
+    height: 500px;
+    flex-direction: column;
+}
+.rowBox1{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rowBox2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowBox3{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 10px;
+}

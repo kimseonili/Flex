@@ -1,0 +1,21 @@
+
+.flexTest{
+
+    margin-left : 30vw;
+    margin-top : 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border : 3px solid coral;
+    border-radius: 10px;
+    width : 400px;
+    height: 200px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 10px;
+}
